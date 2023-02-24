@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free movie catalogue for you">
+    <link rel="icon" href="../images/faviconn.png ">
+    <meta name="theme-color" content="#db0000" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="../icon/faviconn (6).png">
+    <meta name="theme-color" content="#db0000" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+    <title>Restaurant Apps</title>
+</head>
+
+<body>
+    <a href="#restaurant" class="skip-link">Skip to content</a>
+    <header>
+        <div id="home" class="header__title">
+            <a id="click_home" tabIndex="0">World Restauran Apps</a>
+        </div>
+        <button id="hamburger" href="#"class= "abutton">☰</button>
+        <nav id="nav-menu">
+            
+                <ul>
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/like">Favorit</a></li>
+                    <li><a href="https://www.instagram.com/indahnurindo/">About Us</a></li>
+                </ul>
+      
+        </nav>
+        <!-- srcset ="../images/heros/hero-image_2.jpg 480w, ../images/heros/hero-image_2.jpg 800w -->
+    </header>
+    <section>
+    
+        <picture>
+            <source media="(max-width: 600px)" srcset="../images/heros/hero-image_2-small.jpg" />
+            <img
+              width="600"
+              height="400"
+              class="imghero"
+              src="../images/heros/hero-image_2-large.jpg"
+            />
+          </picture>
+        <div class="text-jumbotron">
+            <h1 tabindex="0">Restaurant terkenal di belahan kota Indonesia!</h1>
+            <h2 tabindex="0">Yuk telusuri Restaurant mana yang belum kamu singgahi!</h2>
+        </div>
+    </section>
+    <main id="mainContent">
+
+        <div id="list" class="resto__list"></div>
+    </main>
+
+    <footer>
+        <div tabIndex="0">
+            <p>Copyright © 2021 - World Restauran Apps</p>
+        </div>
+    </footer>
+</body>
+
+</html>
